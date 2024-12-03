@@ -3,8 +3,10 @@
 #
 version: 1.0
 app:
-  # build id to deploy. if 'version' is commented out, the application is not deployed
-  #version: "bebce2f5-4fcf-4bba-8f42-dd1f8b78305f"
+  # Set the build version ID to deploy for the "Build, deploy, and run" 
+  # scenario. If the value is set to an empty string ("") or the field is 
+  # commented out, the application is not deployed.
+  version: ""
   
   # number of instances
   instances:
