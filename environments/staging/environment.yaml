@@ -25,6 +25,10 @@ app:
 
   # List of variables that can be referenced in the server.xml
   variables:
-    - name: some_liberty_variable_name
-      value: "some_liberty_variable_value"
+    - name: mongo.host
+      value: "ec2-52-87-90-56.compute-1.amazonaws.com"
+    - name: mongo.port
+      value: "28017"
+    - name: mongo.username
+      value: "mgdbuser1"
       
