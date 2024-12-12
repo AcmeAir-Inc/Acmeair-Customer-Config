@@ -31,4 +31,8 @@ app:
       value: "28017"
     - name: ACMEAIR_STACKAA_AUTH_URL
       value: "https://acmeair-auth-service:9443/auth"
+
+  systemProperties:
+    - name: mp.jwt.token.header
+      value: "Authorization"
       
