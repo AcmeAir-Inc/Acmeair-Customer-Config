@@ -33,6 +33,10 @@ app:
       value: "https://acmeair-auth-service:9443/auth"
 
   systemProperties:
-    - name: mp.jwt.token.header
+    - name: ACMEAIR_STACKAA_AUTH_URL
+      value: "https://acmeair-auth-service:9443/auth"
+    - name: "mp.jwt.token.header"
       value: "Authorization"
+    - name: mp.jwt.verify.issuer
+      value: http://acmeair-ms
       
